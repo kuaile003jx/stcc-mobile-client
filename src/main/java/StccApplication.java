@@ -21,5 +21,6 @@ public class StccApplication {
         long startTime = System.currentTimeMillis();
         SpringApplication.run(StccApplication.class, args);
         log.info("蜗牛车队小程序后端,已启动,共花费：{}ms ",(System.currentTimeMillis()-startTime));
+        log.info("123");
     }
 }
